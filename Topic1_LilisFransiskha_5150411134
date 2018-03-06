@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <!--
+    1. kita buat project di netbeans dengan memilih HTML 5
+    2. Simpan project ke direktori htdoc   
+    -->
+    <!--
+    penjelasan
+    tag html merupakan tag yang digunakan untuk menjelaskan file bertipe HTML. 
+    penulisan tag berada diantara dua kurung siku "<" dan ">"
+    -->
+    
+    <head>
+        <title>Tugas Topic 1</title> <!--tag title merupakan judul dari sebuah halaman-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link> <!--tag "link" digunakan untuk menghubungkan antara dokumen dan sumber eksternalnya-->
+        <script></script> <!--tag "script" mendefinisikan client-side script-->
+    </head>
+    <body>
+        <!--tag "body" merupakan tubuh/isi dokumen HTML,berfungsi untuk menentukan
+        bagaimana isi suatu dokumen ditampilkan di web browsernya.Isi dokumen 
+        tersebut dapat berupa teks, gambar, animas, link dan lain_lain
+        -->
+        <div>
+            <!--tag "div" merupakan sebuah section dalam dokumen
+            -->
+            <center> <!--tag "center" untuk perataan tengah terhadap teks atau gambar -->
+            <h2> <!--tag "h1-h6" digunakan untuk menunjukkan awal dari suatu header/judul dari dokumen HTML tersebut-->
+                
+            <a href="">
+            <!--tag "a" digunakan untuk saling menautkan antara satu dokumen HTML ke dokumen HTML yang lain--> 
+                <b>Login</b><br/><i>Tugas</i>
+                <!--tag "b" digunakan untuk mempertebal teks.-->
+                <!--tag "i" digunakan untuk membuat teks miring-->
+                <!--tag "br" digunakan untuk baris baru/pindah baris-->
+            </a>
+            </h2>
+            </center>
+            <br/>
+            <form>
+            <!--tag "form" digunakan sebagai form HTML untuk input form-->
+            <label> Username :</label>
+                <!--tag "label" digunakan untuk sebuah elemen <input>-->
+                <input/>
+                <!--tag "input" digunakan untuk field pada form-->
+                <br/><button type="submit">Login</button>
+                
+                <select>
+                <option>Pilih</option>
+                <option> coba </option>
+                </select>
+                <!--tag "select" digunakan untuk membuat daftar drop-down,
+                sedangkan tag "option" digunakan untuk menampilkan beberapa pilihan 
+                yang terbentuk dalam sebuah drop-down -->
+            </form>
+            
+            <ul>
+                <!--tag "ul" mendefinisikan daftar dalam format bullet-->
+                <li>Tugas mencoba tag HTML</li>
+                <li>Lilis Pransiskha</li>
+                <!--tag "li" digunakan untuk menampilkan informasi dalam bentuk item daftar -->
+            </ul>
+            
+                    
+            <p>Bismillah
+            ini merupakan tampilan dari tag "p" untuk paragraf
+            </p>
+            <!--tag "p" digunakan untuk membuat sebuah paragraf-->
+            
+            <table border="1">
+                <tr>
+                    <th>Nama</th>
+                    <th>NIM</th>
+                </tr>
+                <tr>
+                    <td>Siska</td>
+                    <td>5150411134</td>
+                </tr>
+            </table>
+            <!--tag "tabel" digunakan untuk membuat tabel-->
+            <!--tag "tr" digunakan untuk membuat baris di dalam sebuah tabel-->
+            <!--tag "th" untuk mendefinisikan sel header di dalam  sebuah tabel-->
+            <!--tag "td" mendefinisikan sel di dalam sebuah tabel-->
+        </div>
+        
+        
+        
+    </body>
+</html>
